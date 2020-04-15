@@ -9,8 +9,8 @@ public class TVUser {
 		
 		TV tv = (TV)factory.getBean("tv");
 		tv.powerOn();
-		tv.volumeOn();
-		tv.volumeOff();
+		tv.volumeUp();
+		tv.volumeDown();
 		tv.powerOff();
 		
 		factory.close();

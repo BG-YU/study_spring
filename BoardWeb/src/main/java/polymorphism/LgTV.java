@@ -15,13 +15,13 @@ public class LgTV implements TV{
 	}
 
 	@Override
-	public void volumeOn() {
+	public void volumeUp() {
 		// TODO Auto-generated method stub
 		System.out.println("lg volume on");
 	}
 
 	@Override
-	public void volumeOff() {
+	public void volumeDown() {
 		// TODO Auto-generated method stub
 		System.out.println("lg volume off");
 	}
